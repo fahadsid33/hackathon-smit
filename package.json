@@ -1,0 +1,26 @@
+{
+  "name": "camera-geofence-attendance-system",
+  "version": "1.0.0",
+  "description": "Full-stack AI Camera Attendance System with Face Detection, Liveness Verification, and Geofence Enforcement",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "server": "npm run start --prefix server",
+    "server:dev": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "client:build": "npm run build --prefix client",
+    "mobile": "npm start --prefix mobile",
+    "test": "npm test --prefix server"
+  },
+  "keywords": [
+    "attendance",
+    "face-detection",
+    "liveness-detection",
+    "haversine",
+    "geofence",
+    "react",
+    "node",
+    "express"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}
